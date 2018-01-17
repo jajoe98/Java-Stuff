@@ -37,7 +37,7 @@ public class FastFood
         System.out.printf("cburg:   %d \n", numberOfCheeseburgers);
         System.out.printf("sodas:   %d \n", numberOfSodas);
         System.out.printf("fries:   %d \n", numberOfFries);
-        System.out.printf("Total:   $%.2f", totalPrice);
+        System.out.printf("Total:   $%,.2f", totalPrice);
         //exits program so it doesnt slowly kill the computer
         System.exit(0);
     }
