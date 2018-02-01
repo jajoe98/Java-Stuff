@@ -5,7 +5,7 @@ import java.io.*;
 
 public class EX3 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws FileNotFoundException {
 		//instantiations
 		Scanner keyboard = new Scanner(System.in);
 		//create the file for the output to be stored
@@ -29,7 +29,7 @@ public class EX3 {
 		
 		//print the results to the file
 		for(int currentTime = 1; currentTime <= trip.GetTime(); currentTime++) {
-			outputFile.printf("in %d hours you traveled %d miles\n", currentTime, (trip.GetDistance() / trip.GetTime()) * currentTime);
+			outputFile.println("in " + currentTime + " hours you traveled " + (trip.GetDistance() / trip.GetTime()) * currentTime + " miles");
 		}
 		//close the output file so I dont have to restart the computer from overtesting
 		outputFile.close();

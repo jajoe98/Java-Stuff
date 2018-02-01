@@ -1,0 +1,5 @@
+in 1 hours you traveled 40 miles
+in 2 hours you traveled 80 miles
+in 3 hours you traveled 120 miles
+in 4 hours you traveled 160 miles
+in 5 hours you traveled 200 miles

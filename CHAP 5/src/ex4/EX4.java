@@ -6,8 +6,8 @@ public class EX4 {
 
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-		double payRate = 0.01;
-		double totalPay = 0.01;
+		double payRate = 0.00;
+		double totalPay = 0.00;
 		int time;
 		do {
 			System.out.println("how many days will be worked?");
@@ -15,7 +15,12 @@ public class EX4 {
 		}while(time < 1);
 		
 		for(int i = 1; i <= time; i++) {
-			payRate *= 2;
+			if(i == 1) {
+				payRate = 0.01;
+			}
+			else {
+				payRate *= 2;
+			}
 			totalPay += payRate;
 			System.out.printf("day %d payrate $%.2f\n", i, payRate);
 		}
