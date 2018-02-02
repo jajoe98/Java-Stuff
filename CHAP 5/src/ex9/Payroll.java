@@ -1,20 +1,11 @@
 package ex9;
 
 public class Payroll {
-	int id;
-	double grossPay;
-	double stateTax;
-	double fedTax;
-	double fica;
-	
-	public Payroll(int id, double grossPay, double stateTax, double fedTax, double fica) {
-		super();
-		this.id = id;
-		this.grossPay = grossPay;
-		this.stateTax = stateTax;
-		this.fedTax = fedTax;
-		this.fica = fica;
-	}
+	private int id;
+	private double grossPay;
+	private double stateTax;
+	private double fedTax;
+	private double fica;
 
 	public int getId() {
 		return id;
