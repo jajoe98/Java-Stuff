@@ -1,0 +1,6 @@
+Week 1: $10.00
+Week 2: $20.00
+Week 3: $30.00
+Week 4: $40.00
+Week 5: $50.00
+Total Sales: $150.00
