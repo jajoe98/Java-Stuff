@@ -41,11 +41,9 @@ public class Employee {
 		this.hireDate = hireDate;
 	}
 	
-	private boolean isValidEmpNum(String e) {
-		
-	}
-	
 	public String toString() {
-		
+		return String.format( "Name: %s\n"
+							+ "Number: %s\n"
+							+ "Hire Date: %s\n", name, employeeNumber, hireDate);
 	}
 }
