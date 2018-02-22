@@ -1,13 +1,13 @@
-package ex1;
+package ex2;
 
 public class TestScores {
 	private int[] testScores = new int[5];
 	
-	public TestScores(int[] scores) {
+	public TestScores(int[] scores) throws InvalidTestScore {
 		
 		for(int score : scores) {
 			if(score < 0 || score > 100) {
-				throw new IllegalArgumentException("Scores cannot be negative or over 100");
+				throw new InvalidTestScore();
 			}
 		}
 		for(int i = 0; i < testScores.length; i++) {
