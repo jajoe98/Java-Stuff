@@ -1,9 +1,9 @@
 package ex3;
 
 public class RetailItem {
-	public String description;
-	public int unitsOnHand;
-	public double price;
+	private String description;
+	private int unitsOnHand;
+	private double price;
 	
 	public RetailItem(String description, int unitsOnHand, double price) throws InvalidQuantityException, InvalidPriceException {
 		
