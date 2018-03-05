@@ -22,14 +22,14 @@ public class EX7 extends Application {
 		Label lodgeLbl = new Label("Lodging Charges:");
 		
 		//text fields
-		TextField daysBox = new TextField();
-		TextField airBox = new TextField();
-		TextField carBox = new TextField();
-		TextField mileBox = new TextField();
-		TextField parkBox = new TextField();
-		TextField taxiBox = new TextField();
-		TextField regBox = new TextField();
-		TextField lodgeBox = new TextField();
+		TextField daysBox = new TextField("0");
+		TextField airBox = new TextField("0.00");
+		TextField carBox = new TextField("0.00");
+		TextField mileBox = new TextField("0");
+		TextField parkBox = new TextField("0.00");
+		TextField taxiBox = new TextField("0.00");
+		TextField regBox = new TextField("0.00");
+		TextField lodgeBox = new TextField("0.00");
 		
 		//labels for output
 		Label expenseLbl = new Label("Total Expenses:");
