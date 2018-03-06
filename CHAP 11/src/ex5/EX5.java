@@ -14,9 +14,9 @@ public class EX5 extends Application {
 	@Override
 	public void start(Stage stage) throws Exception {
 		Button flipBtn = new Button("Flip");
-		Image heads = new Image("file:heads.png");
-		Image tails = new Image("file:tails.png");
-		Image error = new Image("file:sadkat.jpg");
+		Image heads = new Image("file:resource/heads.png");
+		Image tails = new Image("file:resource/tails.png");
+		Image error = new Image("file:resource/sadkat.jpg");
 		ImageView coin = new ImageView(error);
 		
 		coin.setFitHeight(350);

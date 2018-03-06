@@ -20,16 +20,16 @@ public class EX10 extends Application {
 		Random rng = new Random();
 		
 		//instantiate all the image and image displays
-		Image[] images = new Image[] {new Image("file:E G G.png"), 
-									  new Image("file:Cat_with_pants.jpg"), 
-									  new Image("file:super sad.jpg"), 
-									  new Image("file:sadkat.jpg"), 
-									  new Image("file:dogecoin.jpg"), 
-									  new Image("file:NO.jpg"),
-									  new Image("file:spaget.jpg"),
-									  new Image("file:yes.png"),
-									  new Image("file:ada.png"),
-									  new Image("file:mike wazouski.png")};
+		Image[] images = new Image[] {new Image("file:resource/E G G.png"), 
+									  new Image("file:resource/Cat_with_pants.jpg"), 
+									  new Image("file:resource/super sad.jpg"), 
+									  new Image("file:resource/sadkat.jpg"), 
+									  new Image("file:resource/dogecoin.jpg"), 
+									  new Image("file:resource/NO.jpg"),
+									  new Image("file:resource/spaget.jpg"),
+									  new Image("file:resource/yes.png"),
+									  new Image("file:resource/ada.png"),
+									  new Image("file:resource/mike wazouski.png")};
 		ImageView left = new ImageView(images[4]);
 		ImageView mid = new ImageView(images[4]);
 		ImageView right = new ImageView(images[4]);

@@ -14,12 +14,12 @@ public class EX6 extends Application {
 
 	@Override
 	public void start(Stage stage) throws Exception {
-		Image one = new Image("file:one.PNG");
-		Image two = new Image("file:two.PNG");
-		Image three = new Image("file:three.PNG");
-		Image four = new Image("file:four.PNG");
-		Image five = new Image("file:five.PNG");
-		Image six = new Image("file:six.PNG");
+		Image one = new Image("file:resource/one.PNG");
+		Image two = new Image("file:resource/two.PNG");
+		Image three = new Image("file:resource/three.PNG");
+		Image four = new Image("file:resource/four.PNG");
+		Image five = new Image("file:resource/five.PNG");
+		Image six = new Image("file:resource/six.PNG");
 		ImageView die1 = new ImageView();
 		ImageView die2 = new ImageView();
 
